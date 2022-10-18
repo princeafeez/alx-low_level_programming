@@ -6,9 +6,9 @@
  * Return: 0 when no error and otherwise when there is error
  */
 
-int main(void)
+void print_alphabet(void)
 {
-	int ch;
+	char ch;
 
 	for (ch = 'a'; ch <= 'z'; ch++)
 	{
