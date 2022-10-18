@@ -19,7 +19,7 @@ char ch;
 			_putchar(ch);
 			_putchar('\n');
 		}
-		count++
+		count++;
 	}
 }
 
