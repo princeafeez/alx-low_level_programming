@@ -6,7 +6,7 @@
  * Return: 0 when no error and otherwise when there is error
  */
 
-void print_alphabet(void)
+int main(void)
 {
 	int ch;
 
