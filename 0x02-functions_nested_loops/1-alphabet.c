@@ -1,0 +1,20 @@
+#include "main.h"
+
+/**
+ * main- this is the begining of the program
+ *
+ * Return: 0 when no error and otherwise when there is error
+ */
+
+int main(void)
+{
+	int ch;
+
+	for (ch = 'a'; ch <= 'z', ch++)
+	{
+		_putchar(ch);
+		_putchar('\n');
+		getch();
+	}
+	return (0);
+}
