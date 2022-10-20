@@ -13,14 +13,13 @@ char ch;
 count = 0;
 
 
-	while (count <= 9)
+	while (count++ <= 9)
 	{
 		for (ch = 'a'; ch <= 'z'; ch++)
 		{
 			_putchar(ch);
 			_putchar('\n');
 		}
-		count++;
 	}
 }
 
